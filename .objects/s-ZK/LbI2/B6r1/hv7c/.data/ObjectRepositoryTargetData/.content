@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="nau1-mc8NESOqGUFqBhHVw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="36, 784, 319, 60" DesignTimeScaleFactor="1.25" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='essdng' tag='A' /&gt;" Guid="2ecfd3d4-2566-44b6-afe0-b82cea6e5e7f" ScopeSelectorArgument="&lt;html app='msedge.exe' title='traductor - Búsqueda' /&gt;" SearchSteps="Selector" Version="V6">
+      <imageRef attrName="InformativeScreenshot" originalValue="a8f61cd50a72ec3f036af3dc94cb7fac.jpg" xmlns="">0LFJMT_9YGk69Y6AB81O2Zg</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

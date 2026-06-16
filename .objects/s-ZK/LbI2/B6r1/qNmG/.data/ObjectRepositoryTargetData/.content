@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="RMXqri_pOUaf696AgLqynA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="36, 560, 810, 53" DesignTimeScaleFactor="1.25" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='¿Qué ofrece el Cambridge Dictionary traductor en línea gratuito?' parentid='relatedQnAListDisplay' tag='BUTTON' type='button' /&gt;" Guid="d2c34adf-76df-4cb3-8d34-2652172658b9" ScopeSelectorArgument="&lt;html app='msedge.exe' title='traductor - Búsqueda' /&gt;" SearchSteps="Selector" Version="V6">
+      <imageRef attrName="InformativeScreenshot" originalValue="59ea3dee89c0b2ea1a6ca0106d6ad442.jpg" xmlns="">0fMuQ5S-O4UO3aoiyY5wuJg</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

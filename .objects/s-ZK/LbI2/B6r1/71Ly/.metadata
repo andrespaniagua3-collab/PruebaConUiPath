@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Mapas",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "71LyM6RsD0yG-X7FBqDxrg",
+  "Reference": "kzhPAsMHMEKuOaS0S6l60Q/71LyM6RsD0yG-X7FBqDxrg",
+  "ParentRef": "kzhPAsMHMEKuOaS0S6l60Q/B6r1qwmCEUSLfsgwg3Qbag",
+  "Created": "2026-06-13T14:30:01.1000322Z",
+  "Updated": "2026-06-13T14:30:01.1000322Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Vídeos",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "kqMV0vcBg0qODp6i7BM6VQ",
+  "Reference": "kzhPAsMHMEKuOaS0S6l60Q/kqMV0vcBg0qODp6i7BM6VQ",
+  "ParentRef": "kzhPAsMHMEKuOaS0S6l60Q/B6r1qwmCEUSLfsgwg3Qbag",
+  "Created": "2026-06-13T14:30:01.0738963Z",
+  "Updated": "2026-06-13T14:30:01.0738963Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

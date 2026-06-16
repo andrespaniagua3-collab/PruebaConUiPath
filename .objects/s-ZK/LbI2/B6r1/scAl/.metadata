@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Traductor francés e ita…",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "scAlIWkFmE6aQ3l-mETwJA",
+  "Reference": "kzhPAsMHMEKuOaS0S6l60Q/scAlIWkFmE6aQ3l-mETwJA",
+  "ParentRef": "kzhPAsMHMEKuOaS0S6l60Q/B6r1qwmCEUSLfsgwg3Qbag",
+  "Created": "2026-06-13T14:30:02.5400533Z",
+  "Updated": "2026-06-13T14:30:02.5400533Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

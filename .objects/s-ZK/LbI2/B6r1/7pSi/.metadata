@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Comparar Google y DeepL",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "7pSie2rSl02zPmhqIqM1fg",
+  "Reference": "kzhPAsMHMEKuOaS0S6l60Q/7pSie2rSl02zPmhqIqM1fg",
+  "ParentRef": "kzhPAsMHMEKuOaS0S6l60Q/B6r1qwmCEUSLfsgwg3Qbag",
+  "Created": "2026-06-13T14:30:02.4519472Z",
+  "Updated": "2026-06-13T14:30:02.4519472Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

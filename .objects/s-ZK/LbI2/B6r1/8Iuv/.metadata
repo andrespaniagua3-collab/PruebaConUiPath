@@ -1,0 +1,13 @@
+﻿{
+  "Name": "¿Qué ofrece el traducto… (1)",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "8IuvaucdcUKV7CHPDch3_Q",
+  "Reference": "kzhPAsMHMEKuOaS0S6l60Q/8IuvaucdcUKV7CHPDch3_Q",
+  "ParentRef": "kzhPAsMHMEKuOaS0S6l60Q/B6r1qwmCEUSLfsgwg3Qbag",
+  "Created": "2026-06-13T14:30:03.7389624Z",
+  "Updated": "2026-06-13T14:30:03.7389624Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

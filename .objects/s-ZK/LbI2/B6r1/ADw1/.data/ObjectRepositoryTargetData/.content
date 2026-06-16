@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="5DrS1kKs2UK3PVh5v5MYlA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="806, 576, 20, 20" DesignTimeScaleFactor="1.25" ElementType="Icon" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='acf-icon__icon' css-selector='body&amp;gt;div&amp;gt;main&amp;gt;div&amp;gt;ol&amp;gt;li&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;acf-accordion&amp;gt;ul&amp;gt;li&amp;gt;h3&amp;gt;button&amp;gt;acf-icon&amp;gt;svg' idx='3' tag='svg' /&gt;" Guid="407c0448-d407-48ea-a656-73939549ed68" ScopeSelectorArgument="&lt;html app='msedge.exe' title='traductor - Búsqueda' /&gt;" SearchSteps="Selector" Version="V6">
+      <imageRef attrName="InformativeScreenshot" originalValue="366f1e82cf9238eb916b115913982b78.jpg" xmlns="">0hANru-1Sl0awzzU6OAIRcQ</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

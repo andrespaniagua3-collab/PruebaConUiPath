@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="mdOxCkdHEkOkIoiPF4OqFA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="326, 561, 250, 50" DesignTimeScaleFactor="1.25" ElementType="Button" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl aaname='Comparar Google y DeepL' tag='A' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:text='Comparar Google y DeepL' /&gt;" Guid="6729324e-4786-4481-8e88-db08bd7c484e" ScopeSelectorArgument="&lt;html app='msedge.exe' title='traductor - Búsqueda' /&gt;" SearchSteps="FuzzySelector" Version="V6">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="342, 572, 203, 28" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Comparar Google y DeepL' tag='SPAN' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:text='Comparar Google y DeepL' /&gt;" Guid="5323af2b-b43d-4478-88ca-9a4b32a45291" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="0f8a50c08d9bebedcfa5ae06bb900d67.jpg" xmlns="">0KasfXDEbok6F0gLExp8E2Q</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Go8oXBIgAkmijbOp1QqTaw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="113, 957, 25, 25" DesignTimeScaleFactor="1.25" ElementType="Icon" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl parentid='tta_cameraIc' tableRow='1' tag='svg' /&gt;" Guid="dd1a43e1-7bc6-4488-a928-19db94fec255" ScopeSelectorArgument="&lt;html app='msedge.exe' title='traductor - Búsqueda' /&gt;" SearchSteps="Selector" Version="V6">
+      <imageRef attrName="InformativeScreenshot" originalValue="d8f893c1ea76b9e77201051bc96174b6.jpg" xmlns="">0uBHptJB0g0-2WsmFI5cKDw</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

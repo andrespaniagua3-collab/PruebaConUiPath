@@ -1,0 +1,13 @@
+﻿{
+  "Name": "No me gusta",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "nsXUr3Jfu0qCdK1jdr4E9g",
+  "Reference": "kzhPAsMHMEKuOaS0S6l60Q/nsXUr3Jfu0qCdK1jdr4E9g",
+  "ParentRef": "kzhPAsMHMEKuOaS0S6l60Q/B6r1qwmCEUSLfsgwg3Qbag",
+  "Created": "2026-06-13T14:30:01.2709383Z",
+  "Updated": "2026-06-13T14:30:01.2709383Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

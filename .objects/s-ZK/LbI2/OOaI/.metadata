@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Edge: traductor - Búsqueda (1)",
+  "Type": "Screen",
+  "Id": "OOaI9R25S0u-zQO9QUP-Vw",
+  "Reference": "kzhPAsMHMEKuOaS0S6l60Q/OOaI9R25S0u-zQO9QUP-Vw",
+  "ParentRef": "kzhPAsMHMEKuOaS0S6l60Q/LbI2q4POKUiMEVjRCoP0tA",
+  "Created": "2026-06-13T14:30:07.0994637Z",
+  "Updated": "2026-06-13T14:30:07.0994637Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

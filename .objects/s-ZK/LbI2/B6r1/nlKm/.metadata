@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Español",
+  "Type": "Element",
+  "TaxonomyType": "Dropdown",
+  "Id": "nlKmAG_OOkSwjSw7CKIpDQ",
+  "Reference": "kzhPAsMHMEKuOaS0S6l60Q/nlKmAG_OOkSwjSw7CKIpDQ",
+  "ParentRef": "kzhPAsMHMEKuOaS0S6l60Q/B6r1qwmCEUSLfsgwg3Qbag",
+  "Created": "2026-06-13T14:30:01.440298Z",
+  "Updated": "2026-06-13T14:30:01.440298Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

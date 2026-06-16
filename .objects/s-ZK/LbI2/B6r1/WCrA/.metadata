@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Siguiente",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "WCrA3Y65xECc7W8LSgl6ew",
+  "Reference": "kzhPAsMHMEKuOaS0S6l60Q/WCrA3Y65xECc7W8LSgl6ew",
+  "ParentRef": "kzhPAsMHMEKuOaS0S6l60Q/B6r1qwmCEUSLfsgwg3Qbag",
+  "Created": "2026-06-13T14:30:07.0674943Z",
+  "Updated": "2026-06-13T14:30:07.0674943Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

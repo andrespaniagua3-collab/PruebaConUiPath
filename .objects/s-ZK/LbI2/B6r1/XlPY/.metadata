@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Traductor - EL MUNDO",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "XlPYE_l7V0-0TJcf43PBcA",
+  "Reference": "kzhPAsMHMEKuOaS0S6l60Q/XlPYE_l7V0-0TJcf43PBcA",
+  "ParentRef": "kzhPAsMHMEKuOaS0S6l60Q/B6r1qwmCEUSLfsgwg3Qbag",
+  "Created": "2026-06-13T14:30:05.3336106Z",
+  "Updated": "2026-06-13T14:30:05.3336106Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

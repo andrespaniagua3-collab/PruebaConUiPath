@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="XVvZP_XekkGF6j50Q-0GBw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="421, 370, 40, 40" DesignTimeScaleFactor="1.25" ElementType="Icon" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl parentid='tta_revIcon' tableRow='1' tag='svg' /&gt;" Guid="c62abee3-94ea-4b61-ab0b-8a75511653ee" ScopeSelectorArgument="&lt;html app='msedge.exe' title='traductor - Búsqueda' /&gt;" SearchSteps="Selector" Version="V6">
+      <imageRef attrName="InformativeScreenshot" originalValue="8a11667441e9943bba53ad335a9016c8.jpg" xmlns="">0654xV6yN1E-bu2xKsNg73A</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

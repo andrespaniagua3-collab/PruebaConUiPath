@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Me gusta",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "Td5_NW3QC0-j95EolG8bKg",
+  "Reference": "kzhPAsMHMEKuOaS0S6l60Q/Td5_NW3QC0-j95EolG8bKg",
+  "ParentRef": "kzhPAsMHMEKuOaS0S6l60Q/B6r1qwmCEUSLfsgwg3Qbag",
+  "Created": "2026-06-13T14:30:01.21022Z",
+  "Updated": "2026-06-13T14:30:01.21022Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

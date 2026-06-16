@@ -1,0 +1,13 @@
+﻿{
+  "Name": "DIV tta_revIcon",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "FXn7T-5K7E2mssGPaoTv-A",
+  "Reference": "kzhPAsMHMEKuOaS0S6l60Q/FXn7T-5K7E2mssGPaoTv-A",
+  "ParentRef": "kzhPAsMHMEKuOaS0S6l60Q/B6r1qwmCEUSLfsgwg3Qbag",
+  "Created": "2026-06-13T14:30:01.3680948Z",
+  "Updated": "2026-06-13T14:30:01.3680948Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

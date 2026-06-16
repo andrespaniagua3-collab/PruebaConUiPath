@@ -1,0 +1,305 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:si="clr-namespace:System.IO;assembly=System.Private.CoreLib" xmlns:uascw="clr-namespace:UiPath.Activities.System.Compression.Workflow;assembly=UiPath.System.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Numerics</x:String>
+      <x:String>UiPath.Platform.ResourceHandling</x:String>
+      <x:String>UiPath.Activities.System.FileOperations</x:String>
+      <x:String>UiPath.Activities.System.Encode</x:String>
+      <x:String>UiPath.Activities.System.Compression.Workflow</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Shared.Activities.Business</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>UiPath.Shared.Activities.Utils</x:String>
+      <x:String>UiPath.MicrosoftOffice365.Activities.Files.Enums</x:String>
+      <x:String>UiPath.MicrosoftOffice365.Activities.Enums</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.MicrosoftOffice365.Enums</x:String>
+      <x:String>UiPath.MicrosoftOffice365.Activities</x:String>
+      <x:String>UiPath.Shared.Activities.ConnectionService.Contracts</x:String>
+      <x:String>UiPath.GSuite.Activities.Drive.Enums</x:String>
+      <x:String>UiPath.GSuite.Activities.Enums</x:String>
+      <x:String>UiPath.GSuite.Activities</x:String>
+      <x:String>UiPath.GSuite.Activities.Gmail.Models</x:String>
+      <x:String>UiPath.GSuite.Models</x:String>
+      <x:String>UiPath.Shared.Api.Google.Gmail.Models</x:String>
+      <x:String>UiPath.GSuite.Activities.Gmail.Filters</x:String>
+      <x:String>UiPath.GSuite.Activities.Filters</x:String>
+      <x:String>UiPath.GSuite.Gmail.Enums</x:String>
+      <x:String>UiPath.GSuite.Activities.Gmail.Enums</x:String>
+      <x:String>Microsoft.Exchange.WebServices.Data</x:String>
+      <x:String>UiPath.Mail.Exchange</x:String>
+      <x:String>UiPath.Mail.Exchange.Activities</x:String>
+      <x:String>UiPath.Mail.Activities</x:String>
+      <x:String>UiPath.Mail.Activities.Business.HtmlEditor</x:String>
+      <x:String>UiPath.Mail.Activities.Business</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.Watcher</AssemblyReference>
+      <AssemblyReference>System.IO.Packaging</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.AccessControl</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.DriveInfo</AssemblyReference>
+      <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.MicrosoftOffice365.Activities</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>UiPath.MicrosoftOffice365</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.GSuite.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.GSuite</AssemblyReference>
+      <AssemblyReference>UiPath.Mail</AssemblyReference>
+      <AssemblyReference>Microsoft.Exchange.WebServices</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>GlobalVariablesT1PNoYwrqg</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="570.8000000000001,2578.4" sap2010:WorkflowViewState.IdRef="Sequence_5">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="si:FileInfo" Name="FileInfo" />
+      <Variable x:TypeArguments="x:String" Name="InputFilePath" />
+      <Variable x:TypeArguments="si:FileInfo" Name="InputFileInfo" />
+      <Variable x:TypeArguments="x:String" Name="InputFolderPath" />
+      <Variable x:TypeArguments="x:String" Name="ExtractedFolderPath" />
+      <Variable x:TypeArguments="x:String" Name="ContractsFolderPath" />
+      <Variable x:TypeArguments="x:String" Name="Texto" />
+      <Variable x:TypeArguments="x:String" Name="Inicio" />
+      <Variable x:TypeArguments="x:String" Name="Email" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:MultipleAssign DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="518.4,212" sap2010:WorkflowViewState.IdRef="MultipleAssign_2">
+      <ui:MultipleAssign.AssignOperations>
+        <scg:List x:TypeArguments="ui:AssignOperation" Capacity="4">
+          <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_4">
+            <ui:AssignOperation.To>
+              <OutArgument x:TypeArguments="x:String">[Texto]</OutArgument>
+            </ui:AssignOperation.To>
+            <ui:AssignOperation.Value>
+              <InArgument x:TypeArguments="x:String">Usuario registrado: Nombre=Andres; Email=andres@test.com; Rol=Admin</InArgument>
+            </ui:AssignOperation.Value>
+          </ui:AssignOperation>
+          <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_5">
+            <ui:AssignOperation.To>
+              <OutArgument x:TypeArguments="x:String">[Inicio]</OutArgument>
+            </ui:AssignOperation.To>
+            <ui:AssignOperation.Value>
+              <InArgument x:TypeArguments="x:String">[(Texto.IndexOf("Email=") + "Email=".Length).ToString()]</InArgument>
+            </ui:AssignOperation.Value>
+          </ui:AssignOperation>
+          <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_6">
+            <ui:AssignOperation.To>
+              <OutArgument x:TypeArguments="x:String">[Email]</OutArgument>
+            </ui:AssignOperation.To>
+            <ui:AssignOperation.Value>
+              <InArgument x:TypeArguments="x:String">[Texto.Substring(CInt(Inicio)).Split(";"c)(0)]</InArgument>
+            </ui:AssignOperation.Value>
+          </ui:AssignOperation>
+        </scg:List>
+      </ui:MultipleAssign.AssignOperations>
+    </ui:MultipleAssign>
+    <ui:SelectFile InitialDirectory="{x:Null}" Multiselect="{x:Null}" SelectedFiles="{x:Null}" DisplayName="Browse For File" Filter="All files (*.*)|*.*" sap:VirtualizedContainerService.HintSize="518.4,171.2" sap2010:WorkflowViewState.IdRef="SelectFile_1" SelectedFile="[InputFilePath]" />
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Edge traductor - Búsqueda" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="518.4,447.2" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="8c6c352e-63f7-4491-807c-208e0a89fa76" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="449.6,244.8" sap2010:WorkflowViewState.IdRef="Sequence_6">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,184.8" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="8c6c352e-63f7-4491-807c-208e0a89fa76" Version="V5" />
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.OCREngine>
+        <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+          <ActivityFunc.Argument>
+            <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+          </ActivityFunc.Argument>
+        </ActivityFunc>
+      </uix:NApplicationCard.OCREngine>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-9, -9, 1938, 1038" BrowserType="Edge" ContentHash="xkbNhx5H3U2ODBY0XBA60w" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAEdSURBVFhH7ZXdFYIwDIUdISM4igtZ2EA3kA1wEGlGwA0YBU9KsfQK2miPT/3OyVNCe/PTsNsVCoVEqOYDmVtDxg5k7Oitp6prqeY9xmeDaiaq+LK4dN2q7iKx+P1PuMtNd3+5bNv6rCJeMj9adq3wl0xtsVesBJ7zFdLXOLvujDEz4otiaz5gjBoyt5BZxS36EVedIKJBvxrXT0VGvh2zgAH9apYlRd8a08DqvnnL8rDUyc4tICwcfQt69KuRQXoeeLSMfkQ7tB+BjEYyfMKYGfFFsblWc1QFl5nb+64dbuhEZPz8kqqVjJ/s8ByTbbtaaryIuBJrhpXIKULwq1kGbVkReSnNsy24knOLSKGImEER6P8LQcT2r7xQKDwAoEN3U4Rz4FUAAAAASUVORK5CYII=" InformativeScreenshot="4c2d781376cd3e6239d48e025075e270.jpg" Reference="kzhPAsMHMEKuOaS0S6l60Q/xOvMZaJmx0CtQt8Zkdw6dw" Selector="&lt;html app='msedge.exe' title='traductor - Búsqueda' /&gt;" Url="https://www.bing.com/search?q=traductor&amp;gs_lcrp=EgRlZGdlKgYIARBFGDsyBwgAEAAY-QcyBggBEEUYOzIGCAIQRRg5MgYIAxBFGDsyBggEEAAYQDIGCAUQABhAMgYIBhAAGEAyBggHEAAYQDIGCAgQBRhA0gEIMjQ0OWowajeoAgCwAgA&amp;FORM=ANAB01&amp;PC=NMTS&amp;source=chrome.ob" Version="V3">
+          <uix:TargetApp.Arguments>
+            <InArgument x:TypeArguments="x:String" />
+          </uix:TargetApp.Arguments>
+          <uix:TargetApp.WorkingDirectory>
+            <InArgument x:TypeArguments="x:String" />
+          </uix:TargetApp.WorkingDirectory>
+        </uix:TargetApp>
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+    <ui:GetFileInfoX DisplayName="Get File Info" FilePath="[InputFilePath]" sap:VirtualizedContainerService.HintSize="518.4,166.4" sap2010:WorkflowViewState.IdRef="GetFileInfoX_1" Output="[InputFileInfo]" />
+    <ui:MultipleAssign DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="518.4,212" sap2010:WorkflowViewState.IdRef="MultipleAssign_1">
+      <ui:MultipleAssign.AssignOperations>
+        <scg:List x:TypeArguments="ui:AssignOperation" Capacity="4">
+          <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_1">
+            <ui:AssignOperation.To>
+              <OutArgument x:TypeArguments="x:String">[InputFolderPath]</OutArgument>
+            </ui:AssignOperation.To>
+            <ui:AssignOperation.Value>
+              <InArgument x:TypeArguments="x:String">[InputFileInfo.DirectoryName]</InArgument>
+            </ui:AssignOperation.Value>
+          </ui:AssignOperation>
+          <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_2">
+            <ui:AssignOperation.To>
+              <OutArgument x:TypeArguments="x:String">[ExtractedFolderPath]</OutArgument>
+            </ui:AssignOperation.To>
+            <ui:AssignOperation.Value>
+              <InArgument x:TypeArguments="x:String">[InputFolderPath + "\" + InputFileInfo.Name.Substring(0,InputFileInfo.Name.Length-InputFileInfo.Extension.Length)]</InArgument>
+            </ui:AssignOperation.Value>
+          </ui:AssignOperation>
+          <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_3">
+            <ui:AssignOperation.To>
+              <OutArgument x:TypeArguments="x:String">[ContractsFolderPath]</OutArgument>
+            </ui:AssignOperation.To>
+            <ui:AssignOperation.Value>
+              <InArgument x:TypeArguments="x:String">[InputFolderPath+"\Contracts"]</InArgument>
+            </ui:AssignOperation.Value>
+          </ui:AssignOperation>
+        </scg:List>
+      </ui:MultipleAssign.AssignOperations>
+    </ui:MultipleAssign>
+    <uascw:ExtractFiles Content="{x:Null}" DestinationFolderInfo="{x:Null}" File="{x:Null}" Password="{x:Null}" CodePage="Default" ConflictResolution="Replace" DestinationFolder="[ExtractedFolderPath]" DisplayName="Extract/Unzip Files" ExtractToADedicatedFolder="True" FileToExtract="[InputFilePath]" sap:VirtualizedContainerService.HintSize="518.4,240.8" sap2010:WorkflowViewState.IdRef="ExtractFiles_1" SkipUnsupportedFiles="False">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </uascw:ExtractFiles>
+    <ui:CreateDirectory ContinueOnError="{x:Null}" Output="{x:Null}" DisplayName="Create Folder" sap:VirtualizedContainerService.HintSize="518.4,122.4" sap2010:WorkflowViewState.IdRef="CreateDirectory_1" Path="[ContractsFolderPath]" />
+    <ui:ForEachFileX DisplayName="For Each File in Folder" Filter="*.pdf" Folder="[ExtractedFolderPath]" sap:VirtualizedContainerService.HintSize="518.4,983.2" sap2010:WorkflowViewState.IdRef="ForEachFileX_1" IncludeSubDirectories="True" OrderBy="NameAscFirst" SkipFolderWithoutPermission="False">
+      <ui:ForEachFileX.Body>
+        <ActivityAction x:TypeArguments="si:FileInfo, x:Int32">
+          <ActivityAction.Argument1>
+            <DelegateInArgument x:TypeArguments="si:FileInfo" Name="CurrentFile" />
+          </ActivityAction.Argument1>
+          <ActivityAction.Argument2>
+            <DelegateInArgument x:TypeArguments="x:Int32" Name="CurrentIndex" />
+          </ActivityAction.Argument2>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="484.8,696.8" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="451.2,174.4" sap2010:WorkflowViewState.IdRef="LogMessage_1" Message="[&quot;current proccessin file: &quot;+CurrentFile.Name]" />
+            <If Condition="[CurrentFile.Name.Contains(&quot;Contract&quot;)]" sap:VirtualizedContainerService.HintSize="451.2,462.4" sap2010:WorkflowViewState.IdRef="If_1">
+              <If.Then>
+                <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="449.6,243.2" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:MoveFile ContinueOnError="{x:Null}" DestinationResource="{x:Null}" PathResource="{x:Null}" Destination="[ContractsFolderPath + &quot;\&quot; + CurrentFile.Directory.Name + &quot; &quot; + CurrentFile.Name]" DisplayName="Move File" sap:VirtualizedContainerService.HintSize="416,183.2" sap2010:WorkflowViewState.IdRef="MoveFile_1" Path="[CurrentFile.FullName]" />
+                </Sequence>
+              </If.Then>
+              <If.Else>
+                <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="449.6,89.6" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </Sequence>
+              </If.Else>
+            </If>
+          </Sequence>
+        </ActivityAction>
+      </ui:ForEachFileX.Body>
+    </ui:ForEachFileX>
+  </Sequence>
+</Activity>

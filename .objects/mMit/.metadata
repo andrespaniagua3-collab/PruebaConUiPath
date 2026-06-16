@@ -1,0 +1,11 @@
+﻿{
+  "Name": "NewApplication",
+  "Type": "App",
+  "Id": "mMitNeeYBEGL8tNGAhlfiQ",
+  "Reference": "kzhPAsMHMEKuOaS0S6l60Q/mMitNeeYBEGL8tNGAhlfiQ",
+  "Created": "2026-06-13T14:35:19.5861777Z",
+  "Updated": "2026-06-13T14:35:19.5861777Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

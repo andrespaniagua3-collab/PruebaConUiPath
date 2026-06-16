@@ -1,0 +1,13 @@
+﻿{
+  "Name": "DIV tta_regenTransIcon",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "uSzyxRVAZkuagL69wc-0rw",
+  "Reference": "kzhPAsMHMEKuOaS0S6l60Q/uSzyxRVAZkuagL69wc-0rw",
+  "ParentRef": "kzhPAsMHMEKuOaS0S6l60Q/B6r1qwmCEUSLfsgwg3Qbag",
+  "Created": "2026-06-13T14:30:01.5740805Z",
+  "Updated": "2026-06-13T14:30:01.5740805Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

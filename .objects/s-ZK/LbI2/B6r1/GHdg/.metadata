@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Available With All Paid…",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "GHdgO8gwr0aszfWgaa_8YQ",
+  "Reference": "kzhPAsMHMEKuOaS0S6l60Q/GHdgO8gwr0aszfWgaa_8YQ",
+  "ParentRef": "kzhPAsMHMEKuOaS0S6l60Q/B6r1qwmCEUSLfsgwg3Qbag",
+  "Created": "2026-06-13T14:30:02.7817016Z",
+  "Updated": "2026-06-13T14:30:02.7817016Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

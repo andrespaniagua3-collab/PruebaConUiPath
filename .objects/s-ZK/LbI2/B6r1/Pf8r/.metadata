@@ -1,0 +1,13 @@
+﻿{
+  "Name": "deepl",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "Pf8r9d_v9EmAc61RLGtHXw",
+  "Reference": "kzhPAsMHMEKuOaS0S6l60Q/Pf8r9d_v9EmAc61RLGtHXw",
+  "ParentRef": "kzhPAsMHMEKuOaS0S6l60Q/B6r1qwmCEUSLfsgwg3Qbag",
+  "Created": "2026-06-13T14:30:06.7354214Z",
+  "Updated": "2026-06-13T14:30:06.7354214Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

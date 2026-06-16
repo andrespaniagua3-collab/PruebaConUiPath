@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Edge traductor - Búsqueda",
+  "Type": "App",
+  "Id": "6_v5q3ZXJke2rJ2pxLbJLQ",
+  "Reference": "kzhPAsMHMEKuOaS0S6l60Q/6_v5q3ZXJke2rJ2pxLbJLQ",
+  "Created": "2026-05-25T11:38:59.7856206Z",
+  "Updated": "2026-05-25T11:38:59.7856206Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.31.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Google Traductor",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "4UD23hcn-USELn71qB3e8g",
+  "Reference": "kzhPAsMHMEKuOaS0S6l60Q/4UD23hcn-USELn71qB3e8g",
+  "ParentRef": "kzhPAsMHMEKuOaS0S6l60Q/B6r1qwmCEUSLfsgwg3Qbag",
+  "Created": "2026-06-13T14:30:03.5179299Z",
+  "Updated": "2026-06-13T14:30:03.5179299Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

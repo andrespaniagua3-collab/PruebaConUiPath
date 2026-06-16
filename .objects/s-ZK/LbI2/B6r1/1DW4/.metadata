@@ -1,0 +1,13 @@
+﻿{
+  "Name": "DIV tta_copyIcon",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "1DW4qSwzr06JZuaKHvHLqQ",
+  "Reference": "kzhPAsMHMEKuOaS0S6l60Q/1DW4qSwzr06JZuaKHvHLqQ",
+  "ParentRef": "kzhPAsMHMEKuOaS0S6l60Q/B6r1qwmCEUSLfsgwg3Qbag",
+  "Created": "2026-06-13T14:30:02.2907616Z",
+  "Updated": "2026-06-13T14:30:02.2907616Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,13 @@
+﻿{
+  "Name": "ChatGPT Translate De fo…",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "p3E4wdpM9UOMxFV3245h4g",
+  "Reference": "kzhPAsMHMEKuOaS0S6l60Q/p3E4wdpM9UOMxFV3245h4g",
+  "ParentRef": "kzhPAsMHMEKuOaS0S6l60Q/B6r1qwmCEUSLfsgwg3Qbag",
+  "Created": "2026-06-13T14:30:05.9024216Z",
+  "Updated": "2026-06-13T14:30:05.9024216Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

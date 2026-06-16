@@ -1,0 +1,13 @@
+﻿{
+  "Name": "✕Haga clic para borrar",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "uJAlfK3EIkamIGs3SHJMjw",
+  "Reference": "kzhPAsMHMEKuOaS0S6l60Q/uJAlfK3EIkamIGs3SHJMjw",
+  "ParentRef": "kzhPAsMHMEKuOaS0S6l60Q/B6r1qwmCEUSLfsgwg3Qbag",
+  "Created": "2026-06-13T14:30:01.5015669Z",
+  "Updated": "2026-06-13T14:30:01.5015669Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

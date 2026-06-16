@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="xkbNhx5H3U2ODBY0XBA60w" Reference="kzhPAsMHMEKuOaS0S6l60Q/xOvMZaJmx0CtQt8Zkdw6dw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:p="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="-9, -9, 1938, 1038" BrowserType="Edge" ContentHash="xImEoMaxXkmTEsjGWlhjWg" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAEdSURBVFhH7ZXdFYIwDIUdISM4igtZ2EA3kA1wEGlGwA0YBU9KsfQK2miPT/3OyVNCe/PTsNsVCoVEqOYDmVtDxg5k7Oitp6prqeY9xmeDaiaq+LK4dN2q7iKx+P1PuMtNd3+5bNv6rCJeMj9adq3wl0xtsVesBJ7zFdLXOLvujDEz4otiaz5gjBoyt5BZxS36EVedIKJBvxrXT0VGvh2zgAH9apYlRd8a08DqvnnL8rDUyc4tICwcfQt69KuRQXoeeLSMfkQ7tB+BjEYyfMKYGfFFsblWc1QFl5nb+64dbuhEZPz8kqqVjJ/s8ByTbbtaaryIuBJrhpXIKULwq1kGbVkReSnNsy24knOLSKGImEER6P8LQcT2r7xQKDwAoEN3U4Rz4FUAAAAASUVORK5CYII=" Reference="kzhPAsMHMEKuOaS0S6l60Q/xOvMZaJmx0CtQt8Zkdw6dw" Selector="&lt;html app='msedge.exe' title='traductor - Búsqueda' /&gt;" Url="https://www.bing.com/search?q=traductor&amp;gs_lcrp=EgRlZGdlKgYIARBFGDsyBwgAEAAY-QcyBggBEEUYOzIGCAIQRRg5MgYIAxBFGDsyBggEEAAYQDIGCAUQABhAMgYIBhAAGEAyBggHEAAYQDIGCAgQBRhA0gEIMjQ0OWowajeoAgCwAgA&amp;FORM=ANAB01&amp;PC=NMTS&amp;source=chrome.ob" Version="V3">
+      <TargetApp.Arguments>
+        <p:InArgument x:TypeArguments="x:String" />
+      </TargetApp.Arguments>
+      <TargetApp.WorkingDirectory>
+        <p:InArgument x:TypeArguments="x:String" />
+      </TargetApp.WorkingDirectory>
+      <imageRef attrName="InformativeScreenshot" originalValue="4c2d781376cd3e6239d48e025075e270.jpg" xmlns="">0jQq_JcJw00KAakSpEyr2DA</imageRef>
+    </TargetApp>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

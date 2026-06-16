@@ -1,0 +1,13 @@
+﻿{
+  "Name": "DIV tta_cameraIc",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "WyEHlMWQp0CtDEp3WYP62A",
+  "Reference": "kzhPAsMHMEKuOaS0S6l60Q/WyEHlMWQp0CtDEp3WYP62A",
+  "ParentRef": "kzhPAsMHMEKuOaS0S6l60Q/B6r1qwmCEUSLfsgwg3Qbag",
+  "Created": "2026-06-13T14:30:01.7271201Z",
+  "Updated": "2026-06-13T14:30:01.7271201Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

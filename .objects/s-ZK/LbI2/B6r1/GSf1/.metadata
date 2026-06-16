@@ -1,0 +1,13 @@
+﻿{
+  "Name": "¿Cuál es el mejor tradu…",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "GSf114CLc0G7QJFGwPbVCA",
+  "Reference": "kzhPAsMHMEKuOaS0S6l60Q/GSf114CLc0G7QJFGwPbVCA",
+  "ParentRef": "kzhPAsMHMEKuOaS0S6l60Q/B6r1qwmCEUSLfsgwg3Qbag",
+  "Created": "2026-06-13T14:30:04.7316624Z",
+  "Updated": "2026-06-13T14:30:04.7316624Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

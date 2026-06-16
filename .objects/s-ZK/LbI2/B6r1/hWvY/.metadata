@@ -1,0 +1,13 @@
+﻿{
+  "Name": "traductor inglés español",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "hWvYaaq5N0OOIYjgHsBbQA",
+  "Reference": "kzhPAsMHMEKuOaS0S6l60Q/hWvYaaq5N0OOIYjgHsBbQA",
+  "ParentRef": "kzhPAsMHMEKuOaS0S6l60Q/B6r1qwmCEUSLfsgwg3Qbag",
+  "Created": "2026-06-13T14:30:06.6856942Z",
+  "Updated": "2026-06-13T14:30:06.6856942Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

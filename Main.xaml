@@ -73,6 +73,14 @@
       <x:String>UiPathTeam.GmailActivities.Utils</x:String>
       <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
       <x:String>UiPath.Core.Activities.Orchestrator</x:String>
+      <x:String>UiPath.Web.Activities.Http.Models</x:String>
+      <x:String>System.Net</x:String>
+      <x:String>UiPath.Web.Activities.Http</x:String>
+      <x:String>UiPath.Sdk.Activities</x:String>
+      <x:String>UiPath.Sdk.Activities.DependencyInjection.Contracts</x:String>
+      <x:String>UiPath.Sdk.Activities.DependencyInjection</x:String>
+      <x:String>UiPath.Testing.Activities.Models</x:String>
+      <x:String>UiPath.Testing.Activities</x:String>
     </sco:Collection>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
@@ -146,6 +154,16 @@
       <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
       <AssemblyReference>UiPathTeam.Gmail.Activities</AssemblyReference>
       <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>UiPath.Web.Activities</AssemblyReference>
+      <AssemblyReference>System.Net.Primitives</AssemblyReference>
+      <AssemblyReference>System.Net.HttpListener</AssemblyReference>
+      <AssemblyReference>System.Net.WebProxy</AssemblyReference>
+      <AssemblyReference>System.Net.NameResolution</AssemblyReference>
+      <AssemblyReference>System.Net.WebHeaderCollection</AssemblyReference>
+      <AssemblyReference>System.Net.WebClient</AssemblyReference>
+      <AssemblyReference>System.Net.Requests</AssemblyReference>
+      <AssemblyReference>System.Net.ServicePoint</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
   <sap:WorkflowViewStateService.ViewState>
@@ -153,7 +171,7 @@
       <x:Boolean x:Key="ShouldExpandAll">False</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="860.4000000000001,2423.2" sap2010:WorkflowViewState.IdRef="Sequence_5">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="730,2423.2" sap2010:WorkflowViewState.IdRef="Sequence_5">
     <Sequence.Variables>
       <Variable x:TypeArguments="si:FileInfo" Name="FileInfo" />
       <Variable x:TypeArguments="x:String" Name="InputFilePath" />
@@ -306,14 +324,7 @@
         </ActivityFunc>
       </uix:NApplicationCard.OCREngine>
       <uix:NApplicationCard.TargetApp>
-        <uix:TargetApp Area="-9, -9, 1938, 1038" BrowserType="Edge" ContentHash="olavuaCY_E-FXlVmop1eXQ" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAEdSURBVFhH7ZXdFYIwDIUdISM4igtZ2EA3kA1wEGlGwA0YBU9KsfQK2miPT/3OyVNCe/PTsNsVCoVEqOYDmVtDxg5k7Oitp6prqeY9xmeDaiaq+LK4dN2q7iKx+P1PuMtNd3+5bNv6rCJeMj9adq3wl0xtsVesBJ7zFdLXOLvujDEz4otiaz5gjBoyt5BZxS36EVedIKJBvxrXT0VGvh2zgAH9apYlRd8a08DqvnnL8rDUyc4tICwcfQt69KuRQXoeeLSMfkQ7tB+BjEYyfMKYGfFFsblWc1QFl5nb+64dbuhEZPz8kqqVjJ/s8ByTbbtaaryIuBJrhpXIKULwq1kGbVkReSnNsy24knOLSKGImEER6P8LQcT2r7xQKDwAoEN3U4Rz4FUAAAAASUVORK5CYII=" InformativeScreenshot="e98151726029691d88bc018786bde876.jpg" Reference="kzhPAsMHMEKuOaS0S6l60Q/B6r1qwmCEUSLfsgwg3Qbag" Selector="&lt;html app='msedge.exe' title='traductor - Búsqueda' /&gt;" Url="https://www.bing.com/search?q=traductor&amp;gs_lcrp=EgRlZGdlKgYIARBFGDsyBwgAEAAY-QcyBggBEEUYOzIGCAIQRRg5MgYIAxBFGDsyBggEEAAYQDIGCAUQABhAMgYIBhAAGEAyBggHEAAYQDIGCAgQBRhA0gEIMjQ0OWowajeoAgCwAgA&amp;FORM=ANAB01&amp;PC=NMTS&amp;source=chrome.ob&amp;form=TTSREF&amp;isTTRefreshQuery=1&amp;dayref=1&amp;ajf=10" Version="V3">
-          <uix:TargetApp.Arguments>
-            <InArgument x:TypeArguments="x:String" />
-          </uix:TargetApp.Arguments>
-          <uix:TargetApp.WorkingDirectory>
-            <InArgument x:TypeArguments="x:String" />
-          </uix:TargetApp.WorkingDirectory>
-        </uix:TargetApp>
+        <uix:TargetApp Area="-9, -9, 1938, 1038" BrowserType="Edge" ContentHash="t2AzyGl38kCjjzOk273Lig" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAEdSURBVFhH7ZXdFYIwDIUdISM4igtZ2EA3kA1wEGlGwA0YBU9KsfQK2miPT/3OyVNCe/PTsNsVCoVEqOYDmVtDxg5k7Oitp6prqeY9xmeDaiaq+LK4dN2q7iKx+P1PuMtNd3+5bNv6rCJeMj9adq3wl0xtsVesBJ7zFdLXOLvujDEz4otiaz5gjBoyt5BZxS36EVedIKJBvxrXT0VGvh2zgAH9apYlRd8a08DqvnnL8rDUyc4tICwcfQt69KuRQXoeeLSMfkQ7tB+BjEYyfMKYGfFFsblWc1QFl5nb+64dbuhEZPz8kqqVjJ/s8ByTbbtaaryIuBJrhpXIKULwq1kGbVkReSnNsy24knOLSKGImEER6P8LQcT2r7xQKDwAoEN3U4Rz4FUAAAAASUVORK5CYII=" InformativeScreenshot="72d83c7a9ea5b7869ffc57e5c27f318c.jpg" Reference="kzhPAsMHMEKuOaS0S6l60Q/B6r1qwmCEUSLfsgwg3Qbag" Selector="&lt;html app='msedge.exe' title='traductor - Búsqueda' /&gt;" Url="https://www.bing.com/search?qs=OS&amp;pq=traductr&amp;sk=CSYN1&amp;sc=12-8&amp;pglt=2467&amp;q=traductor&amp;cvid=ed853f053d5e459ca5f50477ecd43014&amp;gs_lcrp=EgRlZGdlKgYIARAAGEAyBggAEEUYOTIGCAEQABhAMgYIAhAAGEAyBggDEAAYQDIGCAQQABhAMgYIBRAAGEAyBggGEAAYQDIGCAcQABhAMgYICBAAGEDSAQkxNzM1NGowajeoAgCwAgA&amp;FORM=ANNTA1&amp;PC=NMTS&amp;dayref=1&amp;ajf=10&amp;form=TTSREF&amp;isTTRefreshQuery=1" Version="V3" />
       </uix:NApplicationCard.TargetApp>
     </uix:NApplicationCard>
   </Sequence>
